@@ -16,8 +16,8 @@ function M.parse(arg)
     cmd:text('Options:')
     ------------ General options --------------------
 
-    cmd:option('-cache', './imagenet/checkpoint/', 'subdirectory in which to save/log experiments')
-    cmd:option('-data', './imagenet/imagenet_raw_images/256', 'Home of ImageNet dataset')
+    cmd:option('-cache', '/imagenet/checkpoint/', 'subdirectory in which to save/log experiments')
+    cmd:option('-data', '/imagenet', 'Home of ImageNet dataset')
     cmd:option('-manualSeed',         2, 'Manually set RNG seed')
     cmd:option('-GPU',                1, 'Default preferred GPU')
     cmd:option('-nGPU',               1, 'Number of GPUs to use by default')
